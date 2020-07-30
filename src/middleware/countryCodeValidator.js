@@ -11,7 +11,6 @@ module.exports = (req, res, next) => {
     }
   } else {
     if (getCode(countryCode)) {
-      console.log('coutrycode too long')
       req.params.countryCode = getCode(countryCode);
       return next();
     }
