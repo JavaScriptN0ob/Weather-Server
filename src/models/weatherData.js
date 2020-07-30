@@ -14,7 +14,6 @@ class Weather {
       ])
       .then((responseArray) => {
         const current = responseArray[0].data;
-        const forecast = responseArray[1].data;
         const cityInfo = responseArray[1].data.city;
         const currentWeatherData = {
           city: {
