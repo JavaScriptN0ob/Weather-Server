@@ -8,6 +8,7 @@ class CurrentWeather {
     this.humidity = main.humidity;
     this.weather = weather[0].main;
     this.weatherDesc = weather[0].description;
+    this.weatherID = weather[0].id;
     this.windSpeed = wind.speed;
     this.windDirection = this.calculateWindDirection(wind.deg);
   }
