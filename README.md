@@ -2,6 +2,6 @@
 
 #### By Wenpei Z
 
-powerd by [OpenWeatherMap]('https://openweathermap.org/'), I did a data clean with my Node server.
+powerd by [OpenWeatherMap]:https://openweathermap.org, I did a data clean with my Node server.
 
 Promise, Promise.all, Async Await, Axios & instance used in my Node Server.
